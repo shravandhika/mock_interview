@@ -3,6 +3,7 @@
 // ================================
 
 import { showPage } from './navigation.js';
+import apiClient from '../utils/ajax.js';
 
 // Handle user login
 export const handleLogin = (event) => {

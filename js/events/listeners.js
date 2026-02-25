@@ -136,6 +136,7 @@ const initializeTimingEvents = () => {
 // ================================
 // 3. KEYBOARD EVENTS
 // ================================
+
 const initializeKeyboardEvents = () => {
     // Global keyboard shortcuts
     document.addEventListener('keydown', (event) => {
